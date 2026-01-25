@@ -1,0 +1,27 @@
+{
+  "name": "vtk-website",
+  "version": "0.0.0",
+  "description": "Source code for the VTK website",
+  "keywords": [
+    "vtk"
+  ],
+  "homepage": "https://github.com/Kitware/vtk-website#readme",
+  "bugs": {
+    "url": "https://github.com/Kitware/vtk-website/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kitware/vtk-website.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Jaswant Panchumarti",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "preview": "vitepress preview src"
+  },
+  "dependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
