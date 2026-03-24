@@ -12,20 +12,25 @@ hero:
   actions:
     - theme: brand
       text: Getting Started
-      link: /guide/getting-started
+      link: /getting-started/
+    - theme: alt
+      text: Download
+      link: /download/
+    - theme: alt
+      text: User's Guide
+      link: /guide/
 
 features:
   - title: Data Model
-    details: Represent almost any real-world problem related to physical science. The fundamental data structures are particularly well-suited to medical imaging and engineering work that involves finite difference and finite element solutions.
-  - title: Filters
-    details: Filters inspect input data to produce derived data. A connected set of filters forms a dataflow network. A configurable network turns raw data into more visually comprehensible formats.
-  - title: Graphics
-    details: Provides abstraction layer over the underlying graphics library (OpenGL for the most part). This higher level simplifies the task of creating compelling visualizations.
-  - title: Data Interaction
-    details: Helps you understand the content, shape and meaning of your data. 3D widgets, interactors and interfaces to other libraries (like trame and Qt) make it easy to present your visualizations and allow users to explore them.
-  - title: 2D Plots and Charts
-    details: Create journal-quality scientific charts, plots, and graphs with the 2D charting classes. Supports a variety of plot types including line, scatter, bar, box, and pie charts.
-  - title: Parallel Processing
-    details: Both shared memory (using multi-threading) and distributed memory (using MPI) approaches are supported. This allows VTK to handle large datasets and perform complex computations efficiently.
+    details: Flexible data structures for structured and unstructured grids, polygonal meshes, images, and volumes. Represent virtually any type of scientific data from medical imaging to engineering simulations.
+  - title: Data I/O
+    details: Read and write over 50 file formats including DICOM, Exodus, CGNS, glTF, NetCDF, STL, and VTK's own XML and HDF5-based formats. Get your data in and out with ease.
+  - title: Extensive Filter Library
+    details: A vast collection of processing filters connected through a pipeline architecture. Transform, analyze, contour, clip, threshold, and derive new data from existing datasets.
+  - title: Rendering
+    details: High-quality 3D surface rendering, GPU-accelerated volume rendering, and photorealistic ray tracing via Intel OSPRay. From interactive exploration to publication-ready images.
+  - title: Multi-Language
+    details: Native C++ core with full Python wrappings and JavaScript support via vtk.js and WebAssembly. Use VTK in the language and environment that works best for you.
+  - title: Open Source & Proven
+    details: BSD-licensed and free for any use. Over 30 years of active development, trusted by national laboratories, medical institutions, and industry worldwide.
 ---
-
