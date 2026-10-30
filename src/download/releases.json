@@ -1,0 +1,42 @@
+{
+  "python": {
+    "versions": "3.10–3.14",
+    "platforms": "Linux (x86_64, aarch64), macOS (x86_64, arm64), Windows (x64)"
+  },
+  "releases": [
+    {
+      "version": "9.7.1",
+      "date": "2026-09-28",
+      "files": [
+        { "kind": "source", "name": "VTK-9.7.1.tar.gz", "size": "56 MB", "sha256": "cae04fd355004cb916a409db79d53a208f1221e975aeacc7540ee67b148ee91a" },
+        { "kind": "data", "name": "VTKData-9.7.1.tar.gz", "size": "1.0 GB", "sha256": "030b25aeb4e852c0e64913a57a82d7d7e8dd1fd3f0f9cdfc9c27221bf03d4c13" },
+        { "kind": "data-files", "name": "VTKDataFiles-9.7.1.tar.gz", "size": "1.1 GB", "sha256": "4c603ae6706daa0afc93d7541383c113c0e0a8c453375c15d92ecc2963e73bbc" },
+        { "kind": "large-data", "name": "VTKLargeData-9.7.1.tar.gz", "size": "236 MB", "sha256": "f38a7fdc4a305f15dbf02b1f476bd5bc31ad02b4c1c808483b38583ca9a642ab" },
+        { "kind": "large-data-files", "name": "VTKLargeDataFiles-9.7.1.tar.gz", "size": "236 MB", "sha256": "2d4f0f1e6da20a0f1a4ea8d613728ad90530c72ce61b5e759759a01e85799157" },
+        { "kind": "docs", "name": "vtkDocHtml-9.7.1.tar.gz", "size": "200 MB", "sha256": "e6262e3a80a438bf9271ab37739061b551a1861c3457390a30623bed125c6c93" }
+      ]
+    },
+    {
+      "version": "9.6.2",
+      "date": "2026-05-18",
+      "files": [
+        { "kind": "source", "name": "VTK-9.6.2.tar.gz", "size": "52 MB", "sha256": "aed12cec12a9609179bf66329070266627ca64244a10856a452b2a17ffb04a1d" },
+        { "kind": "data", "name": "VTKData-9.6.2.tar.gz", "size": "1.0 GB", "sha256": "408cd6a56a59dff028707d68e76b2c408a07801785a3674b2d0ecacbd0ccb29e" },
+        { "kind": "data-files", "name": "VTKDataFiles-9.6.2.tar.gz", "size": "1.1 GB", "sha256": "0d15d07cb7c5d88aee197ac4d4525d5d414e074f0ac3b55018404296f5d76d9c" },
+        { "kind": "large-data", "name": "VTKLargeData-9.6.2.tar.gz", "size": "236 MB", "sha256": "3ddd29045daa96c059c8207c43a976ac24008cd6ab5441213b2aa2e2fb6e5fae" },
+        { "kind": "large-data-files", "name": "VTKLargeDataFiles-9.6.2.tar.gz", "size": "236 MB", "sha256": "41ed83094ea31eb7b8fece3500b910e33773e48c643d2af8652c24c5840fe135" },
+        { "kind": "docs", "name": "vtkDocHtml-9.6.2.tar.gz", "size": "194 MB", "sha256": "88310377d52c0f4430d4bed387e706478f51dc3900f4ae1d25ca2c43e31db792" }
+      ]
+    },
+    {
+      "version": "8.2.0",
+      "date": "2019-01-30",
+      "files": [
+        { "kind": "source", "name": "VTK-8.2.0.tar.gz", "size": "34 MB", "md5": "8af3307da0fc2ef8cafe4a312b821111" },
+        { "kind": "data", "name": "VTKData-8.2.0.tar.gz", "size": "290 MB", "md5": "a6eab7bc02cee1376ee69243dde373ce" },
+        { "kind": "large-data", "name": "VTKLargeData-8.2.0.tar.gz", "size": "236 MB", "md5": "def386ee0a3b988c52255e14af49b7b9" },
+        { "kind": "docs", "name": "vtkDocHtml-8.2.0.tar.gz", "size": "126 MB", "md5": "909c289d404fb5902b7df20e45dee7a3" }
+      ]
+    }
+  ]
+}
