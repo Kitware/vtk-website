@@ -24,5 +24,6 @@ If you do not already have Node.js installed, please download and install it fro
 4. Make your changes and test them locally.
 5. Commit your changes and push to your forked repository.
 6. Open a pull request against the `main` branch of this repository.
+7. For pull requests from branches in this repository, a bot comments with a link to a preview of the built site. The link updates with each push and expires after 7 days without one. Pull requests from forks don't get a preview.
 
 For major changes, please open an issue first to discuss your proposed changes with the maintainers.
