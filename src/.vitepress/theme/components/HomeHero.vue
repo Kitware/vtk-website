@@ -10,10 +10,7 @@ const { frontmatter } = useData()
   <section v-if="frontmatter.intro" class="HomeHero">
     <HeroAnimation />
 
-    <h1 class="heading">
-      <span class="name">{{ frontmatter.intro.name }}</span>
-      <span v-if="frontmatter.intro.text" class="text">{{ frontmatter.intro.text }}</span>
-    </h1>
+    <h1 class="heading">{{ frontmatter.intro.text }}</h1>
     <p v-if="frontmatter.intro.tagline" class="tagline">{{ frontmatter.intro.tagline }}</p>
 
     <div v-if="frontmatter.intro.actions" class="actions">
@@ -40,26 +37,10 @@ const { frontmatter } = useData()
 }
 
 .heading {
-  display: flex;
-  flex-direction: column;
-  margin-top: 8px;
-}
-
-.name {
-  font-size: 56px;
-  line-height: 64px;
+  font-size: 36px;
+  line-height: 44px;
   font-weight: 700;
   letter-spacing: -0.02em;
-  background: var(--vp-home-hero-name-background);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: var(--vp-home-hero-name-color);
-}
-
-.text {
-  font-size: 28px;
-  line-height: 36px;
-  font-weight: 600;
   color: var(--vp-c-text-1);
 }
 
@@ -84,14 +65,9 @@ const { frontmatter } = useData()
     padding-bottom: 96px;
   }
 
-  .name {
-    font-size: 72px;
-    line-height: 80px;
-  }
-
-  .text {
-    font-size: 36px;
-    line-height: 44px;
+  .heading {
+    font-size: 56px;
+    line-height: 64px;
   }
 
   .tagline {

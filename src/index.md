@@ -3,7 +3,6 @@ layout: home
 markdownStyles: false
 
 intro:
-  name: "VTK"
   text: "The Visualization Toolkit"
   tagline: "A visualization engine for everyone"
   actions:
