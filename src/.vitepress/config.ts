@@ -1,11 +1,15 @@
 import { defineConfig } from 'vitepress'
 
+// Path the site is served under: '/vtk-website/' on GitHub Pages, '/' on a custom
+// domain or a Firebase preview. CI sets VITEPRESS_BASE; it defaults to '/'.
+const base = process.env.VITEPRESS_BASE || '/'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/',
+  base,
   title: "VTK",
   description: "The Visualization Toolkit (VTK) is open source software for manipulating and displaying scientific data. It comes with state-of-the-art tools for 3D rendering.",
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: `${base}favicon.ico` }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

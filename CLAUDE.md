@@ -18,7 +18,7 @@ No linting or testing tools are configured.
 ## Architecture
 
 - **`src/`** — All site content and VitePress configuration
-  - **`src/.vitepress/config.ts`** — Site config: nav, sidebar, social links, base path (`/`)
+  - **`src/.vitepress/config.ts`** — Site config: nav, sidebar, social links, base path (from `VITEPRESS_BASE`)
   - **`src/.vitepress/theme/`** — Custom theme (extends VitePress default theme, adds `custom.css`)
   - **`src/index.md`** — Home page using VitePress `home` layout with hero and features
   - **`src/about/`** — About VTK (overview, history, license, citing, logo, contributors)
@@ -40,7 +40,7 @@ No linting or testing tools are configured.
 - VitePress is the only dependency
 - Content is authored in Markdown (`.md` files in `src/`)
 - Vue components can be embedded in Markdown pages
-- Base path is `/` (for vtk.org deployment)
+- Base path comes from the `VITEPRESS_BASE` env var (default `/`). The Pages workflow sets it to `/vtk-website/` from `actions/configure-pages`; Firebase previews use `/`. In Vue components and raw HTML, reference public files with `withBase()` so they work under either base
 - ES modules project (`"type": "module"` in package.json)
 - Multi-sidebar config: each section (`/about/`, `/features/`, `/guide/`, etc.) has its own sidebar
 
