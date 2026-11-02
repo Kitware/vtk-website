@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "src/.vitepress/dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*"
+    ],
+    "cleanUrls": true
+  }
+}
