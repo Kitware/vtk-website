@@ -1,3 +1,7 @@
+<script setup>
+import { withBase } from 'vitepress'
+</script>
+
 # VTK Logo
 
 Official VTK logos for use in presentations, publications, and websites.
@@ -31,23 +35,23 @@ The PNG files have a transparent background and work on any color. The JPEG file
   <tbody>
     <tr>
       <td>High</td><td>1200 × 644</td>
-      <td><a href="/logos/VTK-logo-high-res.png" download>Download</a></td>
-      <td><a href="/logos/VTK-logo-high-res.jpg" download>Download</a></td>
+      <td><a :href="withBase('/logos/VTK-logo-high-res.png')" download>Download</a></td>
+      <td><a :href="withBase('/logos/VTK-logo-high-res.jpg')" download>Download</a></td>
     </tr>
     <tr>
       <td>Medium</td><td>763 × 409</td>
-      <td><a href="/logos/VTK-logo-medium-res.png" download>Download</a></td>
-      <td><a href="/logos/VTK-logo-medium-res.jpg" download>Download</a></td>
+      <td><a :href="withBase('/logos/VTK-logo-medium-res.png')" download>Download</a></td>
+      <td><a :href="withBase('/logos/VTK-logo-medium-res.jpg')" download>Download</a></td>
     </tr>
     <tr>
       <td>Low</td><td>300 × 161</td>
-      <td><a href="/logos/VTK-logo-low-res.png" download>Download</a></td>
-      <td><a href="/logos/VTK-logo-low-res.jpg" download>Download</a></td>
+      <td><a :href="withBase('/logos/VTK-logo-low-res.png')" download>Download</a></td>
+      <td><a :href="withBase('/logos/VTK-logo-low-res.jpg')" download>Download</a></td>
     </tr>
     <tr>
       <td>Tiny</td><td>91 × 49</td>
-      <td><a href="/logos/VTK-logo-tiny-res.png" download>Download</a></td>
-      <td><a href="/logos/VTK-logo-tiny-res.jpg" download>Download</a></td>
+      <td><a :href="withBase('/logos/VTK-logo-tiny-res.png')" download>Download</a></td>
+      <td><a :href="withBase('/logos/VTK-logo-tiny-res.jpg')" download>Download</a></td>
     </tr>
   </tbody>
 </table>
